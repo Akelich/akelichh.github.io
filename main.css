@@ -17,7 +17,7 @@ button {
 }
 
 .contatiner {
-    max-width: 1200px;
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -34,16 +34,16 @@ button {
     color: #181818;
 }
 
-/*.header {
+.header {
     height: 80px;
-}*/
+}
 
 /**/
 .header__row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 360px;
+    padding: 30px 80px;
 }
 
 .header__actions {
@@ -109,6 +109,8 @@ button {
 }
 
 .card{
+    width: 224px;
+    height: 216px;
     background: rgba(0, 0, 0, 0.03);
     padding: 30px;
     border-radius: 20px;
@@ -172,11 +174,32 @@ button {
 }
 
 .show-more::before{
-    content: url();
+    content: url(strelka.svg);
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
+.footer{
+    margin-top: 40px;
+}
 
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 99px;
+}
 
+.footer__developer-info{
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+}
+
+.footer__email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main-link-color);
+    text-decoration: none;
+}
